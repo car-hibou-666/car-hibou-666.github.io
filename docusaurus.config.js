@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'car-hibou-666', // Usually your GitHub org/user name.
+  organizationName: 'Car-Hibou-666', // Usually your GitHub org/user name.
   projectName: 'car-hibou-666.github.io', // Usually your repo name.
   trailingSlash: false,
 
