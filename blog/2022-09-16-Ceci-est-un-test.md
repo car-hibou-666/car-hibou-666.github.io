@@ -3,7 +3,6 @@ title: Ceci est un test
 slug: ceci-est-un-test
 authors: endi
 tags: [hello, docusaurus]
-date: 2022-09-16T06:31
 ---
 
 Tout ceci fera partie du résumé de l'article du blog.
