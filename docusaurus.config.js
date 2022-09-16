@@ -49,6 +49,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
             feedOptions: {
               type: 'rss',
+              copyright: `Copyright © ${new Date().getFullYear()} & tout Droit d'Auteur réservé a "Car-Hibou-666" !`,
             },
           },
         theme: {

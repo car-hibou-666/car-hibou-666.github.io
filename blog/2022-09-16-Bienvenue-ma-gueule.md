@@ -1,7 +1,7 @@
 ---
-title: Bienvenue Docusaurus v2
+title: Bienvenue ma gueule
 description: Ceci est mon premier article sur Docusaurus 2.
-slug: welcome-docusaurus-v2
+slug: Bienvenue-ma-gueule
 authors: [slorber, yangshun]
 tags: [hello, docusaurus-v2]
 image: https://i.imgur.com/mErPwqL.png
