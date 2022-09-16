@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://car-hibou-666.github.io/blog</id>
     <title>Mon site a moi tout seul ! Blog</title>
-    <updated>2022-09-16T09:31:00.000Z</updated>
+    <updated>2022-09-16T06:31:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://car-hibou-666.github.io/blog"/>
     <subtitle>Mon site a moi tout seul ! Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[Ceci est un test]]></title>
         <id>ceci-est-un-test</id>
         <link href="https://car-hibou-666.github.io/blog/ceci-est-un-test"/>
-        <updated>2022-09-16T09:31:00.000Z</updated>
+        <updated>2022-09-16T06:31:00.000Z</updated>
         <summary type="html"><![CDATA[Tout ceci fera partie du résumé de l'article du blog.]]></summary>
         <content type="html"><![CDATA[<p>Tout ceci fera partie du résumé de l'article du blog.</p><p>Même cela.</p><p>Mais ce qui est ici ne le sera pas.</p><p>Pas ça.</p><p>Ni ceci.</p>]]></content>
         <author>
