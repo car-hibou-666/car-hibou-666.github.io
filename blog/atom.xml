@@ -15,12 +15,12 @@
         <summary type="html"><![CDATA[Ceci est mon premier article sur Docusaurus 2.]]></summary>
         <content type="html"><![CDATA[<p>Bienvenue sur ce blog. Ce blog est créé avec <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2</strong></a>.</p><p>C'est mon premier post sur Docusaurus 2.</p><p>Un tas d'exploration à suivre.</p>]]></content>
         <author>
-            <name>Joel Marcey</name>
-            <uri>https://github.com/JoelMarcey</uri>
-        </author>
-        <author>
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
         </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus-v2" term="docusaurus-v2"/>
