@@ -48,7 +48,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
             feedOptions: {
-              type: 'rss',
+              type: 'atom',
               copyright: `Copyright © ${new Date().getFullYear()} & tout Droit d'Auteur réservé a "Car-Hibou-666" !`,
             },
           },
