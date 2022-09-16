@@ -4,11 +4,21 @@
         <title>Mon site a moi tout seul ! Blog</title>
         <link>https://car-hibou-666.github.io/blog</link>
         <description>Mon site a moi tout seul ! Blog</description>
-        <lastBuildDate>Fri, 16 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Sep 2022 10:47:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
         <copyright>Copyright © 2022 &amp; tout Droit d'Auteur réservé a "Car-Hibou-666" !</copyright>
+        <item>
+            <title><![CDATA[Ceci est un test]]></title>
+            <link>https://car-hibou-666.github.io/blog/ceci-est-un-test</link>
+            <guid>ceci-est-un-test</guid>
+            <pubDate>Fri, 16 Sep 2022 10:47:00 GMT</pubDate>
+            <description><![CDATA[Tout ceci fera partie du résumé de l'article du blog.]]></description>
+            <content:encoded><![CDATA[<p>Tout ceci fera partie du résumé de l'article du blog.</p><p>Même cela.</p><p>Mais ce qui est ici ne le sera pas.</p><p>Pas ça.</p><p>Ni ceci.</p>]]></content:encoded>
+            <category>hello</category>
+            <category>docusaurus</category>
+        </item>
         <item>
             <title><![CDATA[Bienvenue ma gueule]]></title>
             <link>https://car-hibou-666.github.io/blog/Bienvenue-ma-gueule</link>
