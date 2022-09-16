@@ -8,10 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fr</language>
+        <copyright>Copyright © 2022 &amp; tout Droit d'Auteur réservé a "Car-Hibou-666" !</copyright>
         <item>
-            <title><![CDATA[Bienvenue Docusaurus v2]]></title>
-            <link>https://car-hibou-666.github.io/blog/welcome-docusaurus-v2</link>
-            <guid>welcome-docusaurus-v2</guid>
+            <title><![CDATA[Bienvenue ma gueule]]></title>
+            <link>https://car-hibou-666.github.io/blog/Bienvenue-ma-gueule</link>
+            <guid>Bienvenue-ma-gueule</guid>
             <pubDate>Fri, 16 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Ceci est mon premier article sur Docusaurus 2.]]></description>
             <content:encoded><![CDATA[<p>Bienvenue sur ce blog. Ce blog est créé avec <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2</strong></a>.</p><p>C'est mon premier post sur Docusaurus 2.</p><p>Un tas d'exploration à suivre.</p>]]></content:encoded>
