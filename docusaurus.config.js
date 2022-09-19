@@ -86,15 +86,15 @@ const config = {
           src: 'img/Logo_Car-Hibou-666.png',
         },
         items: [
+          {
+            to: "docs/",
+            label: "Tuto",
+            position: "left",
+          },
           { 
             to: "blog/", 
             label: "Blog", 
             position: "left" 
-            },
-            {
-              to: "docs/",
-              label: "Tuto",
-              position: "left",
             },
           {
             href: 'https://github.com/facebook/docusaurus',
