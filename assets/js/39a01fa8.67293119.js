@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmon_docu_test=self.webpackChunkmon_docu_test||[]).push([[1990],{4352:t=>{t.exports=JSON.parse('{"label":"test1","permalink":"/blog/tags/test-1","allTagsPath":"/blog/tags","count":1}')}}]);

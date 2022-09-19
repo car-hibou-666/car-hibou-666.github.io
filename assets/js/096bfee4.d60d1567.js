@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmon_docu_test=self.webpackChunkmon_docu_test||[]).push([[7178],{5010:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"La description de mon BLOG !","blogTitle":"Titre de mon BLOG"}')}}]);
