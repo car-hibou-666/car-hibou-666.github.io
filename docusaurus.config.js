@@ -38,7 +38,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-              routeBasePath: 'tuto',
+              routeBasePath: 'docs',
               tagsBasePath: 'tags',
               sidebarCollapsible: true,
               sidebarCollapsed: true,
@@ -86,7 +86,7 @@ const config = {
           src: 'img/Logo_Car-Hibou-666.png',
         },
         items: [
-          {
+               {
             type: 'doc',
             docId: 'intro',
             position: 'left',
