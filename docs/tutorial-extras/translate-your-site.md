@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+slug: tutorial-extras/translate-your-site
+id: translate-your-site
 ---
 
 # Translate your site

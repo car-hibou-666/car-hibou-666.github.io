@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+slug: tutorial-extras/manage-docs-versions
+id: manage-docs-versions
+pagination_label: Mangez-moi, Mangez-moi !!!
 ---
 
 # Manage Docs Versions

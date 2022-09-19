@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/shadesOfPurple');
+const darkCodeTheme = require('prism-react-renderer/themes/shadesOfPurple');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Logo_Car-Hibou-666.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -38,19 +38,36 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+              routeBasePath: 'tuto',
+              tagsBasePath: 'tags',
+              sidebarCollapsible: true,
+              sidebarCollapsed: true,
+              showLastUpdateAuthor: true,
+              showLastUpdateTime: true,
+              breadcrumbs: true,
+              },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            feedOptions: {
+              feedOptions: {
               type: 'rss',
+              language: 'fr',
+              title: 'Car-Hibou-666 Flux RSS active !',
+              description: 'Chanceux que tu es ! Un nouvel article de Car-Hibou-666 vient de sortir !',
               copyright: `Copyright © ${new Date().getFullYear()} & tout Droit d'Auteur réservé a "Car-Hibou-666" !`,
             },
+            path: 'blog',
+            blogTitle: 'Titre de mon BLOG',
+            blogDescription: 'La description de mon BLOG !',
+            blogSidebarCount: 5,
+            blogSidebarTitle: 'Les derniers articles :',
+            tagsBasePath: 'tags',
+            postsPerPage: 10, 
+            authorsMapPath: 'authors.yml',
+            sortPosts: 'descending',
+            readingTime: ({content, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 250}}),
           },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,13 +86,16 @@ const config = {
           src: 'img/Logo_Car-Hibou-666.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { 
+            to: "blog/", 
+            label: "Blog", 
+            position: "left" 
+            },
+            {
+              to: "tuto/",
+              label: "Tuto",
+              position: "left",
+            },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -91,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/tuto/intro',
               },
             ],
           },
@@ -131,7 +151,19 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell','apacheconf','arduino','asciidoc','aspnet','awk','bash','batch','brainfuck','clike','cmake','csharp','css','csv','cypher','django','dns-zone-file','docker','editorconfig','gcode','git','graphql','http','java'],
       },
+        colorMode: {
+          defaultMode: 'dark',
+          disableSwitch: false,
+          respectPrefersColorScheme: true,
+        },   
+        docs: {
+          sidebar: {
+            hideable: true,
+            autoCollapseCategories: true,
+          },
+        },
     }),
 };
 
