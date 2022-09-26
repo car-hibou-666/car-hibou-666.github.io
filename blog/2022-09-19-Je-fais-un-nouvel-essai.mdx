@@ -18,27 +18,259 @@ image: https://img1.freepng.fr/20180702/upf/kisspng-reindeer-stock-photography-c
 slug: Je-fais-un-nouvel-essai
 ---
 
-## Titre2
-### Titre3
+## Résumé affiché
+
 <!--truncate-->
-#### Titre4
-##### Titre5
-###### Titre6
 
-### Ma section du Doc
+<\!--truncate\-->
 
-Message « Hello world » avec du texte en **gras**, du texte en _italique_ et un [Lien](https://car-hibou-666.github.io)
 
-![img alt](/img/docusaurus.png)
+## Table des matieres 
 
-```powershell title="test.ps1"
-whoami
-cd ..
-dir
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline
+  // Only show h2 and h4 headings
+  toc={toc.filter((node) => node.level === 2 || node.level === 3 || node.level === 4 || node.level === 5)}
+  minHeadingLevel={2}
+  // Affiche les entêtes h4 en plus des entêtes par défaut h2 et h3
+  maxHeadingLevel={5}
+/>
+
+```md
+<TOCInline
+  // Only show h2 and h4 headings
+  toc={toc.filter((node) => node.level === 2 || node.level === 3 || node.level === 4 || node.level === 5)}
+  minHeadingLevel={2}
+  maxHeadingLevel={5}
+/>
 ```
+## Niveau des titres (ici 2)
+\#\# Niveau des titres (ici 2)
 
-```bash title="test2.sh"
-whoami
-cd ..
+### Texte en Gras
+
+**gras** = * ** exemple_gras  * **
+
+### Texte en Italique
+
+ _italique_ = _ _ exemple_italique  _ _
+
+### Encadré
+`Encadré` = \`Encadré\`
+
+### Lien URL
+
+ [Lien](https://car-hibou-666.github.io) = [exemple_lien] (http://exemple_lien.test/)
+
+### Image
+
+IMAGE = 
+![img alt](/img/docusaurus.png) = ![img alt]\(/che.min/ima/ge)
+
+### Code
+
+`\`` bash title=/che/min/Fichier.sh showLineNumbers
+``` bash title=/che/min/Fichier.sh showLineNumbers
 find . / -perm 4000 2>/dev/null
+echo "surligner la prochaine ligne UNIQUEMENT (retirer le '#')"
+#  // highlight-next-line 
+  // highlight-next-line
+ls -la 
+echo "surligner plusieurs lignes avec un 'start' et un 'end' (retirer le '#')"
+# // highlight-start 
+ // highlight-start
+whoami
+echo "ca fait 2 lignes !" | base64
+# // highlight-end 
+ // highlight-end
+echo "fin de surlignage"
 ```
+`\``
+
+### Citation
+
+> \> Citation1
+>> Citation2 \>\> Citation2
+
+### Barre
+
+—  Barre1 = —
+—— Barre2 = ——
+
+### Puce
+- Puce1 = - Puce
+  * Puce2 =   * Puce2
+     - Puce3 =  - Puce3
+
+### Saut de section
+---
+
+-\-\-
+
+### Menu Déroulant
+<details>
+  <summary>Basculez moi !</summary>
+  <div>
+    <div>Voici le contenu détaillé</div>
+    <br/>
+    <details>
+      <summary>
+        Interrupteur imbriqué ! Quelques surprises à l'intérieur...
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
+
+code =
+
+```html 
+<details>
+  <summary>Basculez moi !</summary>
+  <div>
+    <div>Voici le contenu détaillé</div>
+    <br/>
+    <details>
+      <summary>
+        Interrupteur imbriqué ! Quelques surprises à l'intérieur...
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>
+```
+
+### Surligner et changer couleur texte :
+
+<div style={{backgroundColor: 'purple',color: 'red'}}>
+
+**Texte en rouge sur fond violet**
+
+</div>
+
+```md
+<div style={{backgroundColor: 'purple',color: 'red'}}>
+
+**Texte en rouge sur fond violet**
+
+</div>
+```
+
+### Onglet
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+  defaultValue="apple"
+  values={[
+    {label: 'Apple', value: 'apple'},
+    {label: 'Orange', value: 'orange'},
+    {label: 'Banana', value: 'banana'},
+  ]}>
+  <TabItem value="apple">Ceci est une pomme 🍎</TabItem>
+  <TabItem value="orange">Ceci est une orange 🍊</TabItem>
+  <TabItem value="banana">Ceci est une banane 🍌</TabItem>
+</Tabs>
+
+``` md
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+<Tabs
+  defaultValue="apple"
+  values={[
+    {label: 'Apple', value: 'apple'},
+    {label: 'Orange', value: 'orange'},
+    {label: 'Banana', value: 'banana'},
+  ]}>
+  <TabItem value="apple">Ceci est une pomme 🍎</TabItem>
+  <TabItem value="orange">Ceci est une orange 🍊</TabItem>
+  <TabItem value="banana">Ceci est une banane 🍌</TabItem>
+</Tabs>
+```
+
+### Admonitions
+
+
+<Tabs
+  defaultValue="remarque"
+  values={[
+    {label: 'Remarque', value: 'remarque'},
+    {label: 'Tip', value: 'tip'},
+    {label: 'Info', value: 'info'},
+    {label: 'Caution', value: 'caution'},
+    {label: 'Danger', value: 'danger'},
+  ]}>
+
+  <TabItem value="remarque">
+
+:::note remarque
+Ceci est une remarque - Blanche
+:::
+
+```md
+:::note remarque
+Ceci est une remarque - Blanche
+:::
+```
+
+</TabItem>
+  <TabItem value="tip">
+
+:::tip
+Ceci est une astuce (tip) - Verte
+:::
+
+```md
+:::tip
+Ceci est une astuce (tip) - Verte
+:::
+```
+
+</TabItem>
+  <TabItem value="info">
+
+:::info
+Ceci est une info - Bleu
+:::
+
+```md
+:::info
+Ceci est une info - Bleu
+:::
+```
+
+</TabItem>
+  <TabItem value="caution">
+
+:::caution
+Ceci est Attention (Caution) - Jaune
+:::
+
+```md
+:::caution
+Ceci est Attention (Caution) - Jaune
+:::
+```
+
+</TabItem>
+  <TabItem value="danger">
+
+:::danger
+Ceci est danger - Rouge
+:::
+
+```md
+:::danger
+Ceci est danger - Rouge
+:::
+```
+
+</TabItem>
+
+</Tabs>
+
