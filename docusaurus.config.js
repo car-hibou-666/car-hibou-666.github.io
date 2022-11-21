@@ -163,6 +163,10 @@ const config = {
           },
         },
     }),
+  plugins: 
+  [
+    'plugin-image-zoom'
+  ],
 };
 
 module.exports = config;
