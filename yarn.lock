@@ -3355,6 +3355,13 @@
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
+"docusaurus-plugin-image-zoom@^0.1.1":
+  "integrity" "sha512-cJXo5TKh9OR1gE4B5iS5ovLWYYDFwatqRm00iXFPOaShZG99l5tgkDKgbQPAwSL9wg4I+wz3aMwkOtDhMIpKDQ=="
+  "resolved" "https://registry.npmjs.org/docusaurus-plugin-image-zoom/-/docusaurus-plugin-image-zoom-0.1.1.tgz"
+  "version" "0.1.1"
+  dependencies:
+    "medium-zoom" "^1.0.6"
+
 "dom-converter@^0.2.0":
   "integrity" "sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA=="
   "resolved" "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.2.0.tgz"
@@ -4926,7 +4933,7 @@
   "resolved" "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
-"medium-zoom@^1.0.4":
+"medium-zoom@^1.0.4", "medium-zoom@^1.0.6":
   "integrity" "sha512-CjFVuFq/IfrdqesAXfg+hzlDKu6A2n80ZIq0Kl9kWjoHh9j1N9Uvk5X0/MmN0hOfm5F9YBswlClhcwnmtwz7gA=="
   "resolved" "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.8.tgz"
   "version" "1.0.8"

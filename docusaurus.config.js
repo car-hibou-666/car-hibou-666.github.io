@@ -146,6 +146,12 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} & tout Droit d'Auteur réservé a "Car-Hibou-666" !`,
       },
+      zoom: {
+        selector: ".markdown :not(em) > img",
+        background: {
+          light: "rgb(255, 255, 255)",
+          dark: "rgb(50, 50, 50)",
+        },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -163,9 +169,8 @@ const config = {
           },
         },
     }),
-  plugins: 
-  [
-    'plugin-image-zoom'
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
   ],
 };
 
